@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>EXI OS Daylight</title>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#467ddd"/>
+      <stop offset="1" stop-color="#c0e9f4"/>
+    </linearGradient>
+    <linearGradient id="land" x2="0.3" y2="1">
+      <stop stop-color="#70ac67"/>
+      <stop offset="1" stop-color="#173f48"/>
+    </linearGradient>
+    <radialGradient id="light">
+      <stop stop-color="#fff7cf" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff7cf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v900H0z"/>
+  <circle cx="1210" cy="195" r="275" fill="url(#light)"/>
+  <circle cx="1210" cy="195" r="42" fill="#fff7dc" opacity="0.8"/>
+  <g fill="#e9f7ff" opacity="0.45">
+    <ellipse cx="315" cy="220" rx="200" ry="21"/>
+    <ellipse cx="355" cy="204" rx="100" ry="25"/>
+    <ellipse cx="895" cy="340" rx="185" ry="18"/>
+    <ellipse cx="935" cy="326" rx="96" ry="22"/>
+  </g>
+  <path fill="#729fa1" d="M0 680Q235 460 485 604T965 615T1600 545V900H0z"/>
+  <path fill="url(#land)" d="M0 785Q325 520 735 655T1600 714V900H0z"/>
+  <path fill="#123943" opacity="0.35" d="M0 900Q450 710 905 800T1600 795V900z"/>
+</svg>

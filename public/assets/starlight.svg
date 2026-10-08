@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>EXI OS Starlight</title>
+  <defs>
+    <linearGradient id="sky" x2="0.15" y2="1">
+      <stop stop-color="#030e20"/>
+      <stop offset="1" stop-color="#164b79"/>
+    </linearGradient>
+    <linearGradient id="land" x2="0.3" y2="1">
+      <stop stop-color="#173e58"/>
+      <stop offset="1" stop-color="#041523"/>
+    </linearGradient>
+    <radialGradient id="moonlight">
+      <stop stop-color="#abcdfc" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#abcdfc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v900H0z"/>
+  <circle cx="1210" cy="195" r="245" fill="url(#moonlight)"/>
+  <path fill="#c3defc" d="M1235 154a47 47 0 1 0 14 72 39 39 0 0 1-14-72z"/>
+  <g fill="#c9e3ff">
+    <circle cx="110" cy="116" r="1.6"/>
+    <circle cx="254" cy="275" r="1"/>
+    <circle cx="316" cy="152" r="2"/>
+    <circle cx="490" cy="77" r="1.2"/>
+    <circle cx="590" cy="352" r="1.5"/>
+    <circle cx="663" cy="205" r="1"/>
+    <circle cx="827" cy="129" r="1.8"/>
+    <circle cx="923" cy="312" r="1"/>
+    <circle cx="1052" cy="82" r="1.4"/>
+    <circle cx="1420" cy="355" r="1.5"/>
+    <circle cx="1482" cy="129" r="1"/>
+  </g>
+  <path fill="#245371" d="M0 680Q235 460 485 604T965 615T1600 545V900H0z"/>
+  <path fill="url(#land)" d="M0 785Q325 520 735 655T1600 714V900H0z"/>
+  <path fill="#020e1d" opacity="0.65" d="M0 900Q450 710 905 800T1600 795V900z"/>
+</svg>

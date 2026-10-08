@@ -1,0 +1,31 @@
+{
+  "name": "@ybouane/liquidglass",
+  "version": "1.0.3",
+  "description": "A liquid glass effect library for the web — apply realistic glass refraction, blur, and lighting to any HTML element.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "keywords": [
+    "liquidglass",
+    "glass",
+    "effect",
+    "webgl",
+    "shader",
+    "blur",
+    "refraction",
+    "ui"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,23 @@
+node_modules/
+dist/
+test-results/
+.env*
+*.log
+!.env.example
+!vendor/liquidglass/dist/
+!vendor/liquidglass/dist/**
+# Frontend publication boundary
+backup/
+electron/
+native/
+supabase/
+SECURITY.md
+shared/cloud-config*
+docs/SUPABASE.md
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.json
+.mcp.json
+.npmrc
